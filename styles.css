@@ -49,3 +49,58 @@ footer p{
     display: block;
     text-align: center;
 }
+
+.container-text{
+    color: rgb(165, 153, 19);
+    text-align: justify;
+    text-justify: auto;
+    padding: 0;
+    background-color: #fff;
+    margin: 20px 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 0 auto;
+    gap: 10px;
+    margin: 10px 20px;
+    background-color: #fff;
+}
+.card{
+    width: 45%;
+    display: flex;
+    padding: 0;
+}
+.card img {    
+    height: 500px;
+    float: left;
+    padding: 0;
+
+
+}
+  
+.left {
+    float: left;
+}
+  
+.right {
+    float: right;
+}
+@media (max-width: 780px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+    .card img {
+        display: flex;
+        width: 100%;
+        object-fit: contain;
+        padding-top: 40px;
+    }
+}
