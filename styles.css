@@ -23,12 +23,11 @@ a{
     height: 700px;
 }
 .banner p {
-    padding: 60px;
+    padding: 85px;
     color: #fff;
     line-height: 1.5;
     text-align: justify;
     text-justify: auto; 
-
 }
 .banner img{
     width: 400px;
@@ -47,6 +46,7 @@ a{
     top: 100px;
     left: 35px;
 }
+
 footer p{
     display: block;
     text-align: center;
